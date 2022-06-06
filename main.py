@@ -32,7 +32,7 @@ def download(link, path, filetype):
         return "Download complete!"
 
 
-video_url = str(input("Enter the URL of the video you want to download\n>> ")) # https://www.youtube.com/watch?v=OMFTZ-iKOTE
+video_url = str(input("Enter the URL of the video you want to download\n>> "))
 
 print("Enter the destination (leave blank for current directory)")
 destination = str(input(">> ")) or '.'
